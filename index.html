@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ženski parfemski setovi</title>
+  </head>
+  <body>
+    <!-- *************** Header starts *************** -->
+    <header id="header">
+      <!-- Header top -->
+      <div class="wrapper">
+        <div class="header__top m-flex-justify">
+          <img src="images/header/logo.svg" alt="Logo" />
+          <div class="m-flex-justify">
+            <div class="header__login">
+              <a href="#">Registruj se</a>
+              <a href="#">Prijavi se</a>
+            </div>
+            <div class="header__search m-flex-justify">
+              <img src="images/header/search.svg" alt="Search" />
+              <img src="images/header/heart.svg" alt="Heart" />
+              <img src="images/header/shopping.svg" alt="Shopping" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Header bottom -->
+      <div class="header__bottom">
+        <nav class="wrapper">
+          <img class="header__menu" src="images/header/menu.svg" alt="Menu" />
+          <ul class="header__nav">
+            <li><a href="#">Novo</a></li>
+            <li><a href="#">Šminka</a></li>
+            <li><a href="#">Parfemi</a></li>
+            <li><a href="#">Nega tela</a></li>
+            <li><a href="#">Nega lica</a></li>
+            <li><a href="#">Muškarci</a></li>
+            <li><a href="#">Deca</a></li>
+            <li class="header__link-login">
+              <a href="#">
+                <img src="images/header/arrow-right.svg" alt="Arrow" />
+                Registruj se
+              </a>
+            </li>
+            <li class="header__link-login">
+              <a href="#">
+                <img src="images/header/arrow-right.svg" alt="Arrow" />
+                Prijavi se
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- **************** Header ends ***************** -->
+
+    <!-- *************** Hero starts ***************** -->
+    <div class="hero m-bg-image">
+      <div class="wrapper">
+        <ul>
+          <li><a href="#">Početna</a></li>
+          <li><a href="#">Parfemi</a></li>
+          <li><a href="#">Parfemski setovi</a></li>
+          <li>
+            <a href="#" class="hero__link-active">Ženski parfemski setovi</a>
+          </li>
+        </ul>
+        <div class="hero__bg m-bg-image">
+          <h1>Ženski parfemski setovi</h1>
+          <p>
+            Pregledaj novu kolekciju ženskih parfemskih setova.<br />
+            Svetski poznati brendovi, samo kod nas.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- ***************** Hero ends *************** -->
+
+    <main class="wrapper">
+      <!-- ***************** Sorting starts ***************** -->
+      <div class="sort m-flex-justify">
+        <span> Prikazano 1-18 od 140 proizvoda </span>
+        <div class="sort__dropdown m-flex-justify">
+          <span>Sortiraj po</span>
+          <div class="sort__option">
+            Najnovije
+            <img src="images/sorting/arrow-down.svg" alt="Arrow-down" />
+          </div>
+        </div>
+      </div>
+      <!-- ***************** Sorting ends ***************** -->
+
+      <div class="wrapper-filter-products">
+        <!-- ***************** Filtering starts *************** -->
+        <div class="filter">
+          <!-- filter price starts -->
+          <div class="filter__item">
+            <p class="filter__title m-flex-justify">
+              <span>Filtriraj po ceni</span>
+              <img src="images/filtering/arrow-up.svg" alt="Arrow-up" />
+            </p>
+            <p class="filter__range"></p>
+            <p class="filter__price">Cena: $25-$220</p>
+          </div>
+          <!-- filter price  ends -->
+
+          <!-- filter brand starts -->
+          <div class="filter__item">
+            <p class="filter__title m-flex-justify">
+              <span>Filtriraj po brendu</span>
+              <img src="images/filtering/arrow-up.svg" alt="Arrow-up" />
+            </p>
+            <div class="filter__forms">
+              <form><input type="checkbox" /><label>Armani (11)</label></form>
+              <form><input type="checkbox" /><label>Blumarine (7)</label></form>
+              <form>
+                <input type="checkbox" /><label>Bottega Veneta (2)</label>
+              </form>
+              <form><input type="checkbox" /><label>Boucheron (4)</label></form>
+              <form>
+                <input type="checkbox" /><label>Bruno Banani (1)</label>
+              </form>
+              <form><input type="checkbox" /><label>Burberry (12)</label></form>
+              <form><input type="checkbox" /><label>Bvlgari (9)</label></form>
+              <form><input type="checkbox" /><label>Boucheron (4)</label></form>
+              <form><input type="checkbox" /><label>Boucheron (4)</label></form>
+              <form>
+                <input type="checkbox" /><label>Bruno Banani (1)</label>
+              </form>
+              <form><input type="checkbox" /><label>Burberry (12)</label></form>
+              <form><input type="checkbox" /><label>Bvlgari (9)</label></form>
+              <form><input type="checkbox" /><label>Boucheron (4)</label></form>
+            </div>
+          </div>
+          <!-- filter brand ends -->
+
+          <!-- filter volume starts -->
+          <div class="filter__item">
+            <p class="filter__title m-flex-justify">
+              <span>Filtriraj po zapremini</span>
+              <img src="images/filtering/arrow-up.svg" alt="Arrow-up" />
+            </p>
+            <div>
+              <form>
+                <input type="checkbox" /><label>0 ml - 50 ml (11)</label>
+              </form>
+              <form>
+                <input type="checkbox" /><label>50 ml - 100 ml (22)</label>
+              </form>
+              <form>
+                <input type="checkbox" /><label>100 ml - 150 ml (35)</label>
+              </form>
+              <form>
+                <input type="checkbox" /><label>150 ml - 200 ml (7)</label>
+              </form>
+              <form>
+                <input type="checkbox" /><label>200 ml - 250 ml (41)</label>
+              </form>
+              <form>
+                <input type="checkbox" /><label>250 ml - 300 ml (16)</label>
+              </form>
+            </div>
+          </div>
+          <!-- filter volume ends -->
+        </div>
+        <!-- ***************** Filtering ends *************** -->
+
+        <div class="wrap-products-pagination">
+          <p>Prikazano 1-18 od 140 proizvoda</p>
+          <!-- ***************** Products starts *************** -->
+          <div class="products">
+            <!-- single product start -->
+            <article class="perfume">
+              <a href="#">
+                <figure>
+                  <img src="images/products/oleo-gel.jpg" alt="Oleo gel" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Brend sa jako dugačkim imenom</p>
+                      <img src="images/products/heart.svg" alt="Heart" />
+                    </div>
+                    <h4 class="m-add-dots">
+                      Atomic Endurance Running <br />
+                      Tee (Crew-Neck) Primer <br />
+                      Dugačkog Imena Sa Tri Reda neka reč
+                    </h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span> $159.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <div class="perfume__action">
+                <div class="perfume__promo-sale">
+                  <span class="m-transform-center">25%</span>
+                </div>
+              </div>
+              <a href="#">
+                <figure>
+                  <img src="images/products/obsessed.jpg" alt="Obsessed" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Dolce & Gabbana</p>
+                      <img src="images/products/heart-fill.svg" alt="Heart" />
+                    </div>
+                    <h4>Atomic Endurance Running Tee (Crew-Neck)</h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span class="perfume__price-sale"> $159.99</span>
+                    <span> $199.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <div class="perfume__action">
+                <div>
+                  <span class="m-transform-center">Novo</span>
+                </div>
+                <div class="perfume__promo-sale">
+                  <span class="m-transform-center">45%</span>
+                </div>
+              </div>
+              <a href="#">
+                <figure>
+                  <img src="images/products/eternity.jpg" alt="Eternity" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Dolce & Gabbana</p>
+                      <img src="images/products/heart.svg" alt="Heart" />
+                    </div>
+                    <h4>Atomic Endurance Running Tee (Crew-Neck)</h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span class="perfume__price-sale"> $49.99</span>
+                    <span> $99.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <a href="#">
+                <figure>
+                  <img src="images/products/oleo-gel.jpg" alt="Oleo gel" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Brend sa jako dugačkim imenom</p>
+                      <img src="images/products/heart.svg" alt="Heart" />
+                    </div>
+                    <h4 class="m-add-dots">
+                      Atomic Endurance Running <br />
+                      Tee (Crew-Neck) Primer <br />
+                      Dugačkog Imena Sa Tri Reda neka reč
+                    </h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span> $159.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <div class="perfume__action">
+                <div class="perfume__promo-sale">
+                  <span class="m-transform-center">25%</span>
+                </div>
+              </div>
+              <a href="#">
+                <figure>
+                  <img src="images/products/obsessed.jpg" alt="Obsessed" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Dolce & Gabbana</p>
+                      <img src="images/products/heart-fill.svg" alt="Heart" />
+                    </div>
+                    <h4>Atomic Endurance Running Tee (Crew-Neck)</h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span class="perfume__price-sale"> $159.99</span>
+                    <span> $199.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <div class="perfume__action">
+                <div>
+                  <span class="m-transform-center">Novo</span>
+                </div>
+                <div class="perfume__promo-sale">
+                  <span class="m-transform-center">45%</span>
+                </div>
+              </div>
+              <a href="#">
+                <figure>
+                  <img src="images/products/eternity.jpg" alt="Eternity" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Dolce & Gabbana</p>
+                      <img src="images/products/heart.svg" alt="Heart" />
+                    </div>
+                    <h4>Atomic Endurance Running Tee (Crew-Neck)</h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span class="perfume__price-sale"> $49.99</span>
+                    <span> $99.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <a href="#">
+                <figure>
+                  <img src="images/products/oleo-gel.jpg" alt="Oleo gel" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Brend sa jako dugačkim imenom</p>
+                      <img src="images/products/heart.svg" alt="Heart" />
+                    </div>
+                    <h4 class="m-add-dots">
+                      Atomic Endurance Running <br />
+                      Tee (Crew-Neck) Primer <br />
+                      Dugačkog Imena Sa Tri Reda neka reč
+                    </h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span> $159.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <div class="perfume__action">
+                <div class="perfume__promo-sale">
+                  <span class="m-transform-center">25%</span>
+                </div>
+              </div>
+              <a href="#">
+                <figure>
+                  <img src="images/products/obsessed.jpg" alt="Obsessed" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Dolce & Gabbana</p>
+                      <img src="images/products/heart-fill.svg" alt="Heart" />
+                    </div>
+                    <h4>Atomic Endurance Running Tee (Crew-Neck)</h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span class="perfume__price-sale"> $159.99</span>
+                    <span> $199.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <div class="perfume__action">
+                <div>
+                  <span class="m-transform-center">Novo</span>
+                </div>
+                <div class="perfume__promo-sale">
+                  <span class="m-transform-center">45%</span>
+                </div>
+              </div>
+              <a href="#">
+                <figure>
+                  <img src="images/products/eternity.jpg" alt="Eternity" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Dolce & Gabbana</p>
+                      <img src="images/products/heart.svg" alt="Heart" />
+                    </div>
+                    <h4>Atomic Endurance Running Tee (Crew-Neck)</h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span class="perfume__price-sale"> $49.99</span>
+                    <span> $99.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <a href="#">
+                <figure>
+                  <img src="images/products/oleo-gel.jpg" alt="Oleo gel" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Brend sa jako dugačkim imenom</p>
+                      <img src="images/products/heart.svg" alt="Heart" />
+                    </div>
+                    <h4 class="m-add-dots">
+                      Atomic Endurance Running <br />
+                      Tee (Crew-Neck) Primer <br />
+                      Dugačkog Imena Sa Tri Reda neka reč
+                    </h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span> $159.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <div class="perfume__action">
+                <div class="perfume__promo-sale">
+                  <span class="m-transform-center">25%</span>
+                </div>
+              </div>
+              <a href="#">
+                <figure>
+                  <img src="images/products/obsessed.jpg" alt="Obsessed" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Dolce & Gabbana</p>
+                      <img src="images/products/heart-fill.svg" alt="Heart" />
+                    </div>
+                    <h4>Atomic Endurance Running Tee (Crew-Neck)</h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span class="perfume__price-sale"> $159.99</span>
+                    <span> $199.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <div class="perfume__action">
+                <div>
+                  <span class="m-transform-center">Novo</span>
+                </div>
+                <div class="perfume__promo-sale">
+                  <span class="m-transform-center">45%</span>
+                </div>
+              </div>
+              <a href="#">
+                <figure>
+                  <img src="images/products/eternity.jpg" alt="Eternity" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Dolce & Gabbana</p>
+                      <img src="images/products/heart.svg" alt="Heart" />
+                    </div>
+                    <h4>Atomic Endurance Running Tee (Crew-Neck)</h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span class="perfume__price-sale"> $49.99</span>
+                    <span> $99.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <a href="#">
+                <figure>
+                  <img src="images/products/oleo-gel.jpg" alt="Oleo gel" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Brend sa jako dugačkim imenom</p>
+                      <img src="images/products/heart.svg" alt="Heart" />
+                    </div>
+                    <h4 class="m-add-dots">
+                      Atomic Endurance Running <br />
+                      Tee (Crew-Neck) Primer <br />
+                      Dugačkog Imena Sa Tri Reda neka reč
+                    </h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span> $159.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <div class="perfume__action">
+                <div class="perfume__promo-sale">
+                  <span class="m-transform-center">25%</span>
+                </div>
+              </div>
+              <a href="#">
+                <figure>
+                  <img src="images/products/obsessed.jpg" alt="Obsessed" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Dolce & Gabbana</p>
+                      <img src="images/products/heart-fill.svg" alt="Heart" />
+                    </div>
+                    <h4>Atomic Endurance Running Tee (Crew-Neck)</h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span class="perfume__price-sale"> $159.99</span>
+                    <span> $199.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <div class="perfume__action">
+                <div>
+                  <span class="m-transform-center">Novo</span>
+                </div>
+                <div class="perfume__promo-sale">
+                  <span class="m-transform-center">45%</span>
+                </div>
+              </div>
+              <a href="#">
+                <figure>
+                  <img src="images/products/eternity.jpg" alt="Eternity" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Dolce & Gabbana</p>
+                      <img src="images/products/heart.svg" alt="Heart" />
+                    </div>
+                    <h4>Atomic Endurance Running Tee (Crew-Neck)</h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span class="perfume__price-sale"> $49.99</span>
+                    <span> $99.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <a href="#">
+                <figure>
+                  <img src="images/products/oleo-gel.jpg" alt="Oleo gel" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Brend sa jako dugačkim imenom</p>
+                      <img src="images/products/heart.svg" alt="Heart" />
+                    </div>
+                    <h4 class="m-add-dots">
+                      Atomic Endurance Running <br />
+                      Tee (Crew-Neck) Primer <br />
+                      Dugačkog Imena Sa Tri Reda neka reč
+                    </h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span> $159.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <div class="perfume__action">
+                <div class="perfume__promo-sale">
+                  <span class="m-transform-center">25%</span>
+                </div>
+              </div>
+              <a href="#">
+                <figure>
+                  <img src="images/products/obsessed.jpg" alt="Obsessed" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Dolce & Gabbana</p>
+                      <img src="images/products/heart-fill.svg" alt="Heart" />
+                    </div>
+                    <h4>Atomic Endurance Running Tee (Crew-Neck)</h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span class="perfume__price-sale"> $159.99</span>
+                    <span> $199.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+            <!-- single product start -->
+            <article class="perfume">
+              <div class="perfume__action">
+                <div>
+                  <span class="m-transform-center">Novo</span>
+                </div>
+                <div class="perfume__promo-sale">
+                  <span class="m-transform-center">45%</span>
+                </div>
+              </div>
+              <a href="#">
+                <figure>
+                  <img src="images/products/eternity.jpg" alt="Eternity" />
+                </figure>
+                <div class="perfume__desc m-flex-column">
+                  <div>
+                    <div class="perfume__name m-flex-justify">
+                      <p class="m-add-dots">Dolce & Gabbana</p>
+                      <img src="images/products/heart.svg" alt="Heart" />
+                    </div>
+                    <h4>Atomic Endurance Running Tee (Crew-Neck)</h4>
+                  </div>
+                  <p class="perfume__price">
+                    <span class="perfume__price-sale"> $49.99</span>
+                    <span> $99.99</span>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- single product ends -->
+          </div>
+          <!-- ***************** Products ends ***************** -->
+
+          <!-- ***************** Pagination starts ************* -->
+          <div class="pagination m-flex-center">
+            <ul class="m-flex-centerX">
+              <li class="m-circle">
+                <a href="#"
+                  ><img src="images/pagination/arrow-left.svg" alt="Left"
+                /></a>
+              </li>
+              <li>
+                <a class="pagination__active" href="#">1</a>
+              </li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li>...</li>
+              <li><a href="#">7</a></li>
+              <li class="m-circle">
+                <a href="#"
+                  ><img src="images/pagination/arrow-right.svg" alt="Right"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <!-- ***************** Pagination ends *************** -->
+        </div>
+      </div>
+    </main>
+
+    <!-- ***************** Footer starts ***************** -->
+    <footer>
+      <!-- Footer top -->
+      <div class="footer__top">
+        <div class="wrapper">
+          <!-- footer__info starts -->
+          <div class="footer__info">
+            <img class="footer__logo" src="images/footer/logo.svg" alt="Logo" />
+            <p>Knez Mihailova 15, Beograd</p>
+            <p>011/ 123-456-78</p>
+            <p>nekimail@gmail.com</p>
+          </div>
+          <!-- footer__info ends -->
+
+          <!-- footer__info starts -->
+          <div class="footer__info">
+            <h4>Korisni linkovi</h4>
+            <ul class="footer__list">
+              <li><a href="#">Opšti uslovi</a></li>
+              <li><a href="#">Politika privatnosti</a></li>
+              <li><a href="#">Najčešća pitanja</a></li>
+              <li><a href="#">Zamena robe</a></li>
+              <li><a href="#">Povraćaj sredstava</a></li>
+            </ul>
+          </div>
+          <!-- footer__info ends -->
+
+          <!-- footer__info starts -->
+          <div class="footer__info">
+            <h4>O kompaniji</h4>
+            <ul class="footer__list">
+              <li><a href="#">O nama</a></li>
+              <li><a href="#">Prodavnice</a></li>
+              <li><a href="#">Zaposlenje</a></li>
+            </ul>
+          </div>
+          <!-- footer__info ends -->
+
+          <!-- footer__info starts -->
+          <div class="footer__info">
+            <h4>Pratite nas</h4>
+            <ul class="footer__list footer__list--social">
+              <li>
+                <a href="https://sr-rs.facebook.com/" target="_blank">
+                  <img src="images/footer/facebook.svg" alt="Facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <img src="images/footer/instagram.svg" alt="Instagram" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/?hl=sr&gl=RS" target="_blank">
+                  <img src="images/footer/youtube.svg" alt="Youtube" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- footer__info ends -->
+        </div>
+        <!-- Arrow to top -->
+        <a class="footer__arrow-up m-circle" href="#header">
+          <img src="images/footer/arrow-up.svg" alt="Arrow-up" />
+        </a>
+      </div>
+      <!-- Footer bottom -->
+      <div class="footer__bottom">
+        <span>&copy; 2020 Sva prava su zadržana</span>
+      </div>
+    </footer>
+    <!-- *****************Footer ends ***************** -->
+  </body>
+</html>

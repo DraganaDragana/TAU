@@ -1,0 +1,142 @@
+/* Header top */
+.header__top {
+  padding: 20px 0;
+}
+
+.header__login {
+  margin-right: 30px;
+  display: none;
+}
+
+.header__login a {
+  color: var(--text-grey);
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.header__login a:nth-child(1) {
+  border-right: 2px solid var(--border-purple-light);
+  padding-right: 12px;
+  margin-right: 8px;
+}
+
+.header__search {
+  width: 133px;
+  cursor: pointer;
+}
+
+/************* Media queries */
+@media screen and (max-width: 270px) {
+  .header__top {
+    display: block;
+  }
+
+  .header__top img {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 810px) {
+  .header__login {
+    display: block;
+  }
+}
+
+/* Header bottom */
+.header__menu {
+  cursor: pointer;
+}
+
+.header__menu:hover + .header__nav {
+  display: block;
+}
+
+.header__nav {
+  margin-top: 30px;
+  display: none;
+  padding-bottom: 20px;
+  animation: showItems 1.5s;
+}
+
+@keyframes showItems {
+  0% {
+    transform: translateX(80%);
+    opacity: 0.2;
+  }
+  5% {
+    opacity: 0.4;
+  }
+  80% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.header__nav li {
+  margin-bottom: 18px;
+}
+
+.header__nav li:nth-child(7) {
+  margin-bottom: 35px;
+}
+
+.header__nav a {
+  color: var(--purple);
+  font-size: 22px;
+}
+
+.header__nav a:hover,
+.header__nav a:active {
+  color: var(--text-light-grey);
+}
+
+.header__link-login img {
+  width: 13px;
+  position: relative;
+  bottom: 2px;
+  animation: arrow-rotate 1.5s;
+  animation-delay: 0.6s;
+}
+
+@keyframes arrow-rotate {
+  0% {
+    transform: rotate(-90deg) scale(0.4);
+  }
+  60% {
+    transform: rotate(70deg) scale(1.9);
+  }
+}
+
+/************ Media queries */
+@media screen and (min-width: 810px) {
+  .header__bottom {
+    padding: 15px 0;
+    background: var(--purple);
+  }
+
+  .header__menu,
+  .header__link-login {
+    display: none;
+  }
+
+  .header__nav {
+    display: flex;
+    margin-top: 0;
+    padding-bottom: 0;
+    animation: none;
+  }
+
+  .header__nav li {
+    margin-bottom: 0;
+    margin-right: 48px;
+  }
+
+  .header__nav li:nth-child(7) {
+    margin-bottom: 0;
+  }
+
+  .header__nav a {
+    font-size: 16px;
+    color: var(--white);
+  }
+}

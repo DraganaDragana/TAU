@@ -1,0 +1,51 @@
+.m-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-flex-centerX {
+  display: flex;
+  align-items: center;
+}
+
+.m-flex-justify {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.m-flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.m-bg-image {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.m-transform-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.m-add-dots {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.m-circle {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
